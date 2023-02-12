@@ -100,11 +100,17 @@ animales <- Animals2
 summarise(mamiferos)
 summarise(animales)
 
+# Apartado b:
 
+dim(mamiferos)
+head(mamiferos)
+tail(mamiferos)
+str(mamiferos)
 
-
-
-
+dim(animales)
+head(animales)
+tail(animales)
+str(animales)
 
 
 
