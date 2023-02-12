@@ -92,6 +92,15 @@ b.  Usa las funciones **dim, head, tail, str** para una primera visión de los c
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
+mamiferos <- mammals
+animales <- Animals2
+
+# Apartado a:
+
+str(mamiferos)
+str(animales)
+
+
 
 
 
