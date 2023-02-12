@@ -97,8 +97,8 @@ animales <- Animals2
 
 # Apartado a:
 
-str(mamiferos)
-str(animales)
+summarise(mamiferos)
+summarise(animales)
 
 
 
