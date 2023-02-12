@@ -112,15 +112,13 @@ head(animales)
 tail(animales)
 str(animales)
 
+# Apartado c:
 
+rownames(mamiferos)
+colnames(mamiferos)
 
-
-
-
-
-
-
-
+rownames(animales)
+colnames(animales)
 
 
 
