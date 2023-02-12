@@ -137,27 +137,16 @@ e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. �
 
 ```{r}
 
+setdiff(rownames(mamiferos), rownames(animales))
+setdiff(rownames(animales), rownames(mamiferos))
 
-
-
-
-
+# Respecto al tipo de animales en la variable animales hay dinosaurios, los cuales son oviparos, por lo que no entran en la categoria de mamiferos. Otros simplemente no estan escritos de la misma forma.
 ```
 
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
 ```{r}
-
-
-
-
-
-
-
-
-
-
-
+# Hay algunos que no estan y otros que no estan escritos de la misma forma. 
 
 ```
 
