@@ -166,13 +166,13 @@ qqPlot(log(Animals2$brain))
     c.  Determina el número de librerías que tienes instaladas.
 
     ```{r}
-libReturn <- library()
-libReturn
+    libReturn <- library()
+    libReturn
 
-head(libReturn$results, n=5)
+    head(libReturn$results, n=5)
 
-lista_librerias <- installed.packages()
-nrow(lista_librerias)
+    lista_librerias <- installed.packages()
+    nrow(lista_librerias)
     ```
 
 4.  En las transparencias del tema 1 se citan los primeros pasos a seguir cuando se analiza un nuevo conjunto de datos.
@@ -184,31 +184,29 @@ nrow(lista_librerias)
 
 ```{r}
 
+# Apartado a:
+head(cabbages)
+dim(cabbages)
+tail(cabbages)
+glimpse(cabbages)
+str(cabbages)
 
+# Apartado b:
+any(is.na(cabbages))
+colSums(sapply(cabbages, is.na))
 
+# Apartado c:
+head(Chile)
+dim(Chile)
+tail(Chile)
+glimpse(Chile)
+str(Chile)
+any(is.na(Chile))
+colSums(sapply(Chile, is.na))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Apartado d:
+summary(cabbages)
+summary(Chile)
 
 ```
 
