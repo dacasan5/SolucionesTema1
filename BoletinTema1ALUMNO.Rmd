@@ -223,7 +223,7 @@ qqPlot(cabbages$VitC)
 
 ```{r}
 
-
+ggplot(cabbages, aes(VitC,fill = Cult)) + geom_histogram(alpha=1)
 
 ```
 
